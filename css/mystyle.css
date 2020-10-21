@@ -1,0 +1,116 @@
+
+
+
+/* reset */
+
+body,p,a,ul,li{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+
+.main-container  {
+  margin: auto;
+  width: 90%;
+  color: #fff;
+  padding-top: 20px;
+}
+
+.top-card  {
+  font-weight: bold;
+  background: #03a9f4;
+  border-top-left-radius: 5px; 
+  border-top-right-radius: 5px;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+}
+
+
+
+
+.footer-card  {
+  background: #eeeeee;
+  border-bottom-left-radius: 5px; 
+  border-bottom-right-radius: 5px;
+  text-align: center;
+  padding: 20px;
+  color: #757575;
+}
+
+
+.input-collection{
+  background-color: #fff;
+  margin-top: 15px;
+  border-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+
+* {box-sizing: border-box;}
+
+.input-container {
+  display: flex;
+  width: 100%;
+}
+
+.input-img {
+  margin-right: 10px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border: 0;
+  border-radius: 5px;
+  color: #757575;
+}
+
+
+
+
+.body-card  {
+  background-color: #fafafa;
+  padding: 20px;
+}
+
+
+
+.btn-register{
+  margin-top: 15px;
+  background-color: #f44336;
+  padding: 15px;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+
+@media screen and (min-width: 620px){
+
+  .main-container{
+    width: 90%;
+  }
+}
+
+
+@media screen and (min-width: 960px){
+
+  .main-container  {
+    width: 60%;
+  }
+
+}
+
+
+@media screen and (min-width: 1200px){
+
+  .main-container  {
+    width: 30%;
+  }
+
+}
